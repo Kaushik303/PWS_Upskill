@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      header {
+        font-size: 40px;
+        text-align: center;
+        background-color: rgb(101, 183, 245);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .navli {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      nav div {
+        padding: 20px;
+      }
+      .headder {
+        width: 100%;
+        height: 100%;
+      }
+      .headder img {
+        width: 100%;
+      }
+      .navli a {
+        color: blue;
+      }
+      .navli a:hover {
+        color: rgb(3, 61, 61);
+      }
+      footer {
+        width: 100%;
+        height: 50%;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+      }
+      .footertext {
+        width: 25%;
+        padding: 25px;
+      }
+      .links {
+        display: block;
+      }
+      .link a {
+        color: black;
+        padding: 25px;
+      }
+      .footerli {
+        padding: 20px;
+      }
+      .footerli a {
+        color: white;
+      }
+      .btn {
+        color: blue;
+        border-radius: 50px;
+        border-width: 6px;
+        height: 30px;
+        width: 130px;
+      }
+      :hover.btn {
+        cursor: pointer;
+        color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <header>First Assignment Using HTML and CSS</header>
+    <nav>
+      <div>
+        <ul>
+          <li class="navli"><a href="#">Home</a></li>
+          <li class="navli"><a href="#">About us</a></li>
+          <li class="navli"><a href="#">Contact Us</a></li>
+          <li class="navli"><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <div>
+        <button class="btn">Login/Register</button>
+      </div>
+    </nav>
+    <div class="headder"><img src="https://images.unsplash.com/photo-1649239085201-5a6d724fd6af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="headerimage" srcset="" /></div>
+    <footer>
+      <div class="footertext">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo at eveniet odio non quidem commodi, sequi tempore accusantium! Nam maiores veritatis ipsum magni suscipit hic voluptatum, illum iusto ducimus saepe similique ullam assumenda
+          numquam et eligendi facilis reprehenderit voluptas at vero ipsam consectetur. Tempore, esse?
+        </p>
+      </div>
+      <div class="links">
+        <ul>
+          <li class="footerli">Please follow us on</li>
+          <div class="image"><img src="download.jpg" alt="Social media icons" /></div>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
